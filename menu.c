@@ -7,8 +7,9 @@
 //------------------------------------------------------------------------------
 
 #include "msp430.h"
-#include "functions.h"
-#include "macros.h"
+#include "header_files/functions.h"
+#include "header_files/menu.h"
+#include "header_files/basic_macros.h"
 
 // Variables
 //------------------------------------------------------------------------------

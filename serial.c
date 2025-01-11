@@ -9,8 +9,10 @@
 //------------------------------------------------------------------------------
 
 #include "msp430.h"
-#include "macros.h"
-#include "port_macros.h"
+#include "header_files/serial.h"
+#include "header_files/rtcs.h"
+#include "header_files/basic_macros.h"
+#include "header_files/movement.h"
 
 // global variables defined externally
 extern volatile RTCS_TASK_ENTRY RTCS_Task_Table[RTCS_NUM_TASKS];

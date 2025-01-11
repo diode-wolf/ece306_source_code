@@ -12,9 +12,10 @@
 //------------------------------------------------------------------------------
 
 #include "msp430.h"
-#include "macros.h"
-#include "port_macros.h"
-#include "functions.h"
+#include "header_files/switch.h"
+#include "header_files/ports.h"
+#include "header_files/functions.h"
+#include "header_files/basic_macros.h"
 
 volatile unsigned char switch1_press;
 volatile unsigned char switch2_press;

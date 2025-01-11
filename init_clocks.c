@@ -6,9 +6,8 @@
 //  Jan 2021
 //  Built with IAR Embedded Workbench Version: V7.12.1
 // ------------------------------------------------------------------------------
-#include  "functions.h"
+#include  "header_files/functions.h"
 #include  "msp430.h"
-#include  "macros.h"
 
 // MACROS========================================================================
 #define MCLK_FREQ_MHZ           (8) // MCLK = 8MHz

@@ -7,10 +7,12 @@
 //  Built with 
 //------------------------------------------------------------------------------
 
-#include "port_macros.h"
-#include "macros.h"
+#include "header_files/ports.h"
+#include "header_files/basic_macros.h"
+#include "header_files/init.h"
+#include "header_files/timers.h"
 #include "msp430.h"
-#include "functions.h"
+#include "header_files/functions.h"
 
 // Variables
 //------------------------------------------------------------------------------

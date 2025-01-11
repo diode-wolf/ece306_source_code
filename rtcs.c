@@ -7,12 +7,13 @@
 //  Last built with Code Composer Studio (12.4.0)
 //------------------------------------------------------------------------------
 
-#include "macros.h"
-#include "port_macros.h"
-#include "functions.h"
 #include "msp430.h"
+#include "header_files/rtcs.h"
+#include "header_files/timers.h"
+#include "header_files/basic_macros.h"
+#include "header_files/ports.h"
+#include "header_files/functions.h"
 
-// Variables
 
 // Create a structure to hold each task
 // Each task entry has a pointer to the task function

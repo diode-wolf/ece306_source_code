@@ -7,8 +7,12 @@
 //------------------------------------------------------------------------------
 
 #include "msp430.h"
-#include "macros.h"
-#include "functions.h"
+#include "header_files/basic_macros.h"
+#include "header_files/init.h"
+#include "header_files/timers.h"
+#include "header_files/tasks.h"
+#include "header_files/functions.h"
+#include "header_files/movement.h"
 
 volatile unsigned int DAC_data;                         // Value written to the DAC
 Timer_ISR timer_B0;

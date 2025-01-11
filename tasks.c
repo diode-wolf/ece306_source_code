@@ -8,9 +8,14 @@
 
 // Includes
 #include "msp430.h"
-#include "macros.h"
-#include "port_macros.h"
-#include "functions.h"
+#include "header_files/movement.h"
+#include "header_files/serial.h"
+#include "header_files/rtcs.h"
+#include "header_files/tasks.h"
+#include "header_files/menu.h"
+#include "header_files/basic_macros.h"
+#include "header_files/ports.h"
+#include "header_files/functions.h"
 
 // Extern Variables for Process Serial
 extern volatile char IOT_msg_rcvd[PROCESS_BUFF_ROWS];

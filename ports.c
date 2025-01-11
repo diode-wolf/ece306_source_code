@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 // Include macros
-#include "port_macros.h"
+#include "header_files/ports.h"
 #include  "msp430.h"
 
 // Function Declarations

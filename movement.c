@@ -8,9 +8,10 @@
 //------------------------------------------------------------------------------
 
 #include "msp430.h"
-#include "functions.h"
-#include "macros.h"
-#include "port_macros.h"
+#include "header_files/functions.h"
+#include "header_files/movement.h"
+#include "header_files/basic_macros.h"
+#include "header_files/ports.h"
 
 // Variables
 //------------------------------------------------------------------------------

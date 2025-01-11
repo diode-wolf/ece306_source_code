@@ -9,9 +9,9 @@
 //------------------------------------------------------------------------------
 // Include all function prototypes                              
 #include "msp430.h"
-#include "macros.h"
-#include "port_macros.h"
-#include "functions.h"
+#include "header_files/basic_macros.h"
+#include "header_files/ports.h"
+#include "header_files/functions.h"
 
 
 // Global Variables defined externally

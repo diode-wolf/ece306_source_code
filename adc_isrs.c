@@ -8,9 +8,9 @@
 
 // Include header libraries
 #include "msp430.h"
-#include "macros.h"
-#include "port_macros.h"
-#include "functions.h"
+#include "header_files/ports.h"
+#include "header_files/basic_macros.h"
+#include "header_files/functions.h"
 
 // Global variables defined in this file
 volatile unsigned int ADC_channel;

@@ -9,13 +9,12 @@
 //------------------------------------------------------------------------------
 
 //------------------------------------------------------------------------------
-#include  "functions.h"
+#include  "header_files/functions.h"
 #include  "msp430.h"
-#include  "macros.h"
-#include  "port_macros.h"
-#include  "lcd.h"
+#include  "header_files/ports.h"
+#include  "header_files/lcd.h"
 #include <string.h>
-//#include  "spi.h"
+
 
 #define LCD_INTERVAL        (12500) // 8,000,000 / 8 / 8 / [1/100msec] = 12500
 #define SPI_CLK_PRESCALER      (80)
